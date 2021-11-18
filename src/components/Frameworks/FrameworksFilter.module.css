@@ -1,0 +1,19 @@
+.filter__control label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .filter__control input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  .filter__control input:focus {
+    outline: none;
+    border-color: #11999e;
+  }
+  

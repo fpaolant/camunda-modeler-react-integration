@@ -1,0 +1,46 @@
+.item {
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    padding: 1rem 2rem;
+    cursor: pointer;
+  }
+  .item:hover {
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.26);
+  }
+  
+  .item h2 {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .item__description {
+    color: #999;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  @keyframes appearSoftly {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0.25;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    75% {
+      opacity: 0.75;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animated {
+    animation-name: appearSoftly;
+    animation-duration: 1000ms;
+  }
+  

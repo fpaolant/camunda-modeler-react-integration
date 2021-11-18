@@ -1,0 +1,16 @@
+.page {
+    /*Some styles */
+  }
+  
+  .header {
+    padding: 20px 30px;
+    background-color: #efefef;
+  }
+  .header h1 {
+    color: #11999e;
+  }
+  .body {
+    border: 1px solid #efefef;
+    padding: 20px 30px;
+  }
+  
