@@ -1,6 +1,7 @@
 # Camunda Modeler integrated in React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple React App bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and integrated with the popular JavaScript library bpmn.js (docs can be found here: https://github.com/bpmn-io/bpmn-js)
+
 
 ## Available Scripts
 
